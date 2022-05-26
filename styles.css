@@ -52,7 +52,7 @@ h1{
   border-bottom: black;
 }
 .contact{
-  text-transform: red;
+  color: red;/*Contact info styling*/
   font-size: 55;
   font-style: italic;
 }
@@ -60,12 +60,24 @@ h1{
 
 
 
-    .background-image{
-      background-image:url(-4999883997995922761.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
+.background-image{ /*Background image formating to fit page*/
+  background-image:url(-4999883997995922761.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
 
-      width: auto;
-      height: 100vh;
+}
+.para-text{
+  font-size: 15px;
+  color: red;/*Contact info styling*/
+  font-size: 55;
+}
+.pricing-txt{
+  color:blue;
+}
 
-    }
+.about-tittle{
+  color: green;
+  text-: bold;
+}
