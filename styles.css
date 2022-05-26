@@ -1,12 +1,20 @@
 /*Main style secton*/
 
 body{
-  margin: 19px;
+  margin: 0;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
-tittle{
+h1{
   text-transform: capitalize; /*tittle block transformation*/
   text-transform: bold;
+  font-size: 78px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 10px;
+  padding: 0 0 0 0;
+  font-family: 'Oswald', sans-serif;
 }
 .container{
   display:grid;
@@ -22,7 +30,7 @@ tittle{
 }
 .nav-wrapper > .left-side > div{
   margin-right: 20px;
-  font-size: .9em;
+  font-size: 1.2em;
   text-transform: uppercase;
 }
 .nav-link-wrapper{
@@ -43,22 +51,21 @@ tittle{
 .nav-link-wrapper a:hover{
   border-bottom: black;
 }
-
-tittle {
-  display: inline;
-  font-weight: bold;
-  font-size: 48px;
-  width: auto;
-  line-height: 24px;
-  margin-bottom: 5px;
+.contact{
+  text-transform: red;
+  font-size: 55;
+  font-style: italic;
 }
+
+
 
 
     .background-image{
       background-image:url(-4999883997995922761.jpg);
       background-size: cover;
       background-repeat: no-repeat;
-      width:200vh;
+
+      width: auto;
       height: 100vh;
 
     }
