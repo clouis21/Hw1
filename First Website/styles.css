@@ -1,0 +1,248 @@
+/*Main style secton*/
+
+body{
+  margin: 0;
+}
+
+h1{
+  text-transform:uppercase; /*tittle block transformation*/
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+
+  text-decoration: dashed;
+  font-family: 'Oswald', sans-serif;
+  background-color: rgb(25, 45, 20);
+  color:rgb(35, 195, 83);
+  text-shadow: 0 0 90px #FF0000, 0 0 95px #0000FF;
+}
+
+.container{/*top lvel content styling*/
+  display:grid;
+  grid-template-columns: 1fr;
+  border: 10px solid black;
+  width: 100%;
+  height: 190px;
+  padding-top: 0px;
+  color: ghostwhite;
+  position: fixed;
+  background-color: rgb(20, 79, 146);
+  min-width: 960px; margin: 0 auto;
+
+}
+
+
+.nav-wrapper {   /*Move text to upper side of web page */
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+.left-side{
+  display: flex;
+  background-color: aqua;
+
+}
+.nav-wrapper > .left-side > div{
+  margin-right: 20px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+color:white;
+}
+.nav-link-wrapper{
+  height:22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+.nav-link-wrapper a{
+  color: rgb(149, 136, 136);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.nav-link-wrapper:hover{
+  border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover{
+  border-bottom: black;
+}
+
+
+
+.background-image{ /*Background image formating to fit page*/
+  background-image:url(-4999883997995922761.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
+  margin-top: 0%;
+}
+
+
+
+#contact-form{
+  position:absolute; left:-10px; top:190px;
+
+  background-color: rgba(203, 218, 206, 0.948);
+  border: 2px solid rgb(32, 25, 176);
+  color:black;
+  width: 19%;
+  height: 120%;
+  margin-top: 6%;
+  font-size: 20px;
+  margin-left: 1300px; 
+
+}
+
+.Select_car{
+  position:absolute; left:-10px; top:200px;
+  width: 570px;
+  height: 50px;
+  display:flex;
+  min-width: 360px; 
+  font-size: 19px;
+  overflow:hidden;
+}
+
+table, th, td{/*move table up and format to prevent text overflow*/
+  border: 2px solid black;
+  border-radius: 15px;
+  color: #d3bab4;
+  background-color:midnightblue;
+  width: 90px;
+  height: auto;
+  border-collapse: collapse;
+  border-color: aliceblue;
+  table-layout: fixed;
+  overflow:auto;
+
+}
+
+#ops-hours{
+  position: fixed;
+  top: 240px;
+  background-color: #0000FF;
+  width: 220px; 
+  margin-bottom:0;
+  margin-left: -10px;  
+}
+
+.column-text{
+  background-color: #0000FF;
+  color: white;
+  margin: 0px;
+  padding: 5px;
+  height: 200px;
+  width: 50%;
+  font-size: 20px;
+}
+
+#operating-hours{
+  background-color: #FF0000;
+  position: relative;
+  top: 290px;
+  position: fixed;
+  margin-left: -10px;
+}
+
+
+
+
+#saff-list{
+  position: relative;
+  background-color: rgb(79, 86, 84);
+  color: #22bd14;
+  top: 440px;
+  width: 333px;
+  display: flex;
+  transform: rotate(-4deg);
+}
+
+
+
+
+
+
+html {
+  font-family: helvetica, arial, sans-serif;
+}
+
+article > h1 {
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+article > h2 {
+  font-size: .8rem;
+  color: red;
+  letter-spacing: 1px;
+}
+
+p {
+  break-after: column;
+}
+
+article {
+  column-width: 40px;
+  background-color: #0d0d42;
+  color: aliceblue;
+  gap: 25px;
+  overflow: hidden;
+  margin-bottom: 00px;
+}
+
+#bottom-message{
+  background-image:url(audiPhoto.jpg);
+  background-color: #FF0000;
+  width: 100%;
+  height: 640px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family:algerian;
+  font-size: 65px;
+  text-align: center;
+  color:rgb(213, 227, 23);
+  display:inline-block;
+
+}
+
+footer{
+  clear: both;
+  position: relative;
+  margin-top: 00px;
+}
+/*index.html formating ends here*/
+
+
+
+
+
+
+
+/*//////////The about page styling starts here*/
+h3{
+  font-size: 15px;
+  font-size: 55;
+  color: #0000FF;
+
+}
+p{
+  color:rgb(145, 117, 5);
+}
+
+
+.return-home{
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+}
+/*//////////The about page styling ends here*/
+
+

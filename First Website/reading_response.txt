@@ -1,0 +1,21 @@
+	The reading assignment outlined step by step on how to become 
+  a front-end web developer, how to become a front-end web developer
+   and a full-stack web developer. To become a front-end web developer,
+    you need to be familiar with HTML, CSS JavaScript at minimum. 
+    Then there is version control and package manager and so on. 
+    Back-end require similar skills but there are many differences. 
+     Then there is full stack developers. They are the most popular 
+     developers to date. To become a full-stack developer requires the 
+     knowledge of many languages. Such developer must be familiar with 
+     the front end and backend languages. There are endless online 
+     programs to teach people how to become a full-stack developer. 
+      The requirement for a full stack developer includes not just 
+      languages but also data storage. They must know web application 
+      structure and have the capacity to understand algorithms and data structure. 
+Web development continue to be a very dominant career. Web assembly 
+is one of the aspects of web development that continues to gain traction. 
+It is a game-changer in the web development space. It as it features great 
+speed and flexibility. Another sector that has dominate web development
+ is blockchain. It has become popular with social networks like Twitter, 
+ Facebook, YouTube, and businesses that involve payments, wallets, 
+ and intellectual properties. Needless to say a web development career is worthy investment. 

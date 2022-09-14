@@ -1,0 +1,235 @@
+<!--Name: Chad Louis
+    Date: 9/13/2022
+
+    GUI assignment to create first web page.
+    This website is design to attract custumers to the automotive repair shop
+    that sales and maintains certain make and car models-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" /> 
+        <title>Used Cars Hyannis MA | Used Cars &amp; Trucks MA | Quality Auto Center</title>
+        <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container"> <!--Top level element of left content-->
+        <h1>Quality Auto Sales and Repair Center</h1>
+        <div class="nav-wrapper">
+            <div class="left-side">
+
+                <div class="about">
+                    <a href="about.html">About Our prices</a>
+                </div>
+                
+                <div class="service">
+                    <a href="about.html">Service</a>
+                </div>
+
+                <div  class  = "contact-info">
+                    <a href="about.html">CONTACT US!</a>
+                </div>
+            </div>
+             <!--Nav bar right side component -->
+            <div class="right-side">
+                    <p> OWNER: SAID ALHARTHY</p>
+            </div>
+    </div>
+
+    <!-- Form action is to divert to external utube site. Type reset clear previous selection -->
+    <div id="contact-form">
+        <h3>Message for your appointment!</h3>
+        <form name="contact" id="ok" action="https://www.youtube.com/watch?v=n-IwmbARwBo" method="get">
+
+            <label for="author">Name:</label> <input type="text" id="author" name="author"/>
+            <div class="cleaner_h10"></div>
+            <label for="email">Email:</label> <input type="text" id="email" name="email"/>
+            <div class="cleaner_h10"></div>
+
+            <label for="phone">Phone:</label> <input type="text" name="phone" id="phone" />
+            <div class="cleaner_h10"></div>
+
+            <label for="text">Message:</label> <textarea id="text" name="text" rows="0" cols="0"></textarea>
+            <div class="cleaner_h10"></div>
+
+            <input type="submit" value="Submit" />
+            <input type="reset" class="submit_btn float_r" name="reset" id="reset" value="Reset" />
+
+        </form>
+    </div>
+    
+<!-- With car selection customers can can have the option to select one
+vehicle however the selecton is not responsive -->
+    <div class="Select_car">
+        <label for="vehicle brand" default="">Make</label>
+            <select value="brand" id="car make">
+                <option value="" selected disabled hidden>Choose Make</option>
+                <option value="nissan">Nissan</option>
+                <option value="bmw">BMW</option>
+                <option value="chevy">Chevy</option>
+                <option value="Kia">Kia</option>
+                <option value="Honda">Honda</option>
+            </select>
+
+            <label for="vehicle brand">Model</label>
+            <select value="model" id="car model">
+                <option value="" selected disabled hidden>Choose Model</option>
+                <option value="Altima">Altima</option>
+                <option value="Civic">Civic</option>
+                <option value="X8">X8</option>
+                <option value="Sorento">Sorento</option>
+                <option value="Malibu">Malibu</option>
+            </select>
+
+            <label for="vehicle brand">Year</label>
+            <select value="brand" id="car make">
+                <option value="" selected disabled hidden>Choose Year</option>
+                <option value="nissan">2018</option>
+                <option value="bmw">2019</option>
+                <option value="chevy">2020</option>
+                <option value="Kia">2021</option>
+                <option value="Honda">2022</option>
+            </select>
+    </div>
+
+<!--Div is for an ordered section for manager and the label employees but unordered for employees names  -->
+    <div id="saff-list">
+        <ul>
+            <li>Manager: Kartik Lemon</li>
+            <li>Employees:
+                <ul>
+                    <li>Lucia Degaule</li>
+                    <li>Tony Morison</li>
+                    <li>Max Wagu</li>
+                </ul>
+            </li>
+        </ul>
+</div> 
+
+
+<!-- Simple table to display the days ofthe week of hour operation,
+With the days being the header and time are table content -->
+    <table id="operating-hours">
+        <tr>
+            <h2 id="ops-hours">Operating Hours:</h2>
+            <th>Sunday</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+        </tr>
+        <tr>
+            <td>Closed</td>
+            <td>open</td>
+            <td>open</td>
+            <td>open</td>
+            <td>open</td>
+            <td>open</td>
+            <td>open</td>
+        </tr>
+        <tr>
+            <td>All Day</td>
+            <td>09AM - 05PM</td>
+            <td>09AM - 05PM</td>
+            <td>09AM - 05PM</td>
+            <td>09AM - 05PM</td>
+            <td>09AM - 05PM</td>
+            <td>09 PM - Noon</td>
+        </tr>   
+    </table>
+            
+</div>
+   
+    <div class="background-image"></div>
+
+<!-- The third section of the web pape promoting the vehicled availabe for sale -->
+<div id="my_article">
+    <article>
+            
+        <p>
+            <h2> Chevrolet Silverado 1500</h2>
+            32,816 vehicles starting at $2
+        </p>
+
+        <p>
+            <h2> Chevrolet Camaro</h2>
+            2,225 vehicles starting at $985
+        </p>
+
+
+        <p>
+            <h2> Chevrolet Corvette</h2>
+            509 vehicles starting at $64,200
+        </p>
+
+        <p>
+            <h2> Ford F150</h2>
+            30,158 vehicles starting at $1
+        </p>
+
+        <p>
+            <h2> Ford F250</h2>
+            3,344 vehicles starting at $36,480
+        </p>
+
+        <p>
+            <h2> Ford Mustang</h2>
+            3,905 vehicles starting at $27,382  
+        </p>
+
+        <p>
+            <h2> Honda Accord</h2>
+            4,007 vehicles starting at $26,360
+        </p>
+
+        <p>
+            <h2>Jeep Grand Cherokee</h2>
+            6,874 vehicles starting at $40
+        </p>
+
+        <p>
+            <h2>New Jeep Wrangler</h2>
+            9,913 vehicles starting at $33,535
+        </p>
+
+        <p>
+            <h2>New Porsche 911</h2>
+            143 vehicles starting at $115,230
+        </p>
+
+        <p>
+            <h2>New Toyota 4Runner</h2>
+            2,774 vehicles starting at $29,729
+        </p>
+
+        <p>
+            <h2>New Toyota Tacoma</h2>
+            7,101 vehicles starting at $23,400
+        </p>
+
+    </article>
+</div>
+
+<!-- Bottom div cantaining the audi image and promotion line -->
+<div id="bottom-message">
+    <div class="background-image2"></div>
+
+    <p>
+        New vehicles arriving daily. Visit us for your next car!
+    </p>
+</div>
+
+
+<footer>
+        Copyright (c) 2022 by Chad. All rights reserved. May be freely copied or
+        excerpted for educational purposes with credit to the author.
+        updated by Chad on Sep 9, 2022 at 11:23 PM
+</footer>
+
+</body>
+</html>    
+
+       
